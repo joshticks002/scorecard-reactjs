@@ -1,6 +1,6 @@
 import { useState, ChangeEvent, FormEvent } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { SimpleInput } from "../../components/SimpleInput";
+// import { SimpleInput } from "../../components/SimpleInput";
 import Swal from "sweetalert2";
 import { loginUser } from "../../utils/api";
 import "./Login.css";
@@ -10,7 +10,7 @@ function Login() {
     email: "",
     password: "",
   });
-  // const [passwordVisible, setPasswordVisible] = useState(true);
+  
   const navigate = useNavigate();
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
