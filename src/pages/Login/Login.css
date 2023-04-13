@@ -82,7 +82,7 @@
     background:linear-gradient(96.67deg, #34A853 0%, #B8D344 100%);
     font-weight: bolder;
     color: white;
-
+    cursor: pointer;
 }
 .signup{
     text-align: center;
